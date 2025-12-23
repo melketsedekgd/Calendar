@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    border: solid 1px darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    border: solid 1px black;
+    border-radius: 0px;
+}
+
+.header{
+    display: flex;
+    gap: 2%;
+    background-color: darkolivegreen;
+    padding-left: 3%;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+div {
+    border: solid 1px lightgrey;
+    border-radius: 15px;
+}
+
+.row1, .row2, .row3, .row4, .row5{
+    display: flex;
+    flex:1;
+    border:none;
+    margin-bottom: 1%;
+    
+}
+
+.row1{display: flex; align-items: center; justify-items: center; border:none;}
+
+.row1 > div{ margin-right: 1%; border: none; padding-left: 1%;}
+.row2 > div{ margin-right: 1%; padding-left: 1%; padding-top: 1%;}
+.row3 > div{ margin-right: 1%; padding-left: 1%; padding-top: 1%;}
+.row4 > div{ margin-right: 1%; padding-left: 1%; padding-top: 1%;}
+.row5 > div{ margin-right: 1%; padding-left: 1%; padding-top: 1%;}
+
+div{
+    flex:1;
+}
+.prevNext{
+    display: flex;
+    gap: 1%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    border:none;
+}
+.prevNext > button{
+    flex: 1;
+    border-radius: 15px;
+}
+
+
