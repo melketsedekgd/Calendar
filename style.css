@@ -2,22 +2,26 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .body{
     height: 100vh;
-    border: solid 1px darkolivegreen;
     display: flex;
     flex-direction: column;
     padding: 3%;
     border: solid 1px black;
     border-radius: 0px;
+    background-color: black;
+    color: white;
+    
 }
 
 .header{
     display: flex;
     gap: 2%;
-    background-color: darkolivegreen;
+    background-color: lightgray;
+    color: black;
     padding-left: 3%;
     align-items: center;
     margin-bottom: 1%;
@@ -34,7 +38,8 @@ div {
     flex:1;
     border:none;
     margin-bottom: 1%;
-    
+    font-size: 150%;
+    font-family: monospace;
 }
 
 .row1{display: flex; align-items: center; justify-items: center; border:none;}
@@ -58,6 +63,15 @@ div{
 .prevNext > button{
     flex: 1;
     border-radius: 15px;
+    background-color: lightgrey;
+}
+
+#quote-container{
+    color: black;
+    display: flex;
+    text-align: center;
+    background-color: lightgray;
+    
 }
 
 
